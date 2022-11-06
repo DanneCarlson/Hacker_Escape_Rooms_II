@@ -50,13 +50,41 @@ body {
     }
   } 
 
-.line-figure {
+  .open-menu {
+    max-width: 51px;
+    position: absolute;
+    right: 20px;
+    top: 28px;
+    margin-left: 163px;
+
+    opacity: 100%;
+    
+    border: none;
+    border-radius: 3px;
+    
+    padding: 0;
+    background-color: #011827;
+    
+  }
+
+  .open-menu:hover {
+    cursor: pointer;
+  }
+
+
+  @media screen and (min-width: 800px) {
+    .open-menu {
+      display: none;
+    }
+  }
+
+  /*.line-figure {
     max-width: 51px;
     position: absolute;
     right: -10px;
     top: 10px;
     margin-left: 163px;
-  }
+  }*/
 
   .line-figure:hover {
     color: #8ACFE5;
