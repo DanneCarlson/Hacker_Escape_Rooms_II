@@ -178,12 +178,36 @@ body {
     margin-bottom: 30px;
   }
 
-  @media screen and (min-width: 960px) {
+  @media screen and (min-width: 800px) {
     .challenge-button-on-site-top {
       bottom: 35px;
       left: 50%;
       margin: 0;
       position: relative;
+    }
+  }
+
+  .challenge-button-online-top {
+    font-family: roboto;
+    font-weight: 700;
+    font-size: 16px;
+    color: #36769D;
+  }
+
+  @media screen and (min-width: 800px) {
+    .challenge-button-online-top {
+      font-size: 24px;
+      border-radius: 4px;
+      padding: 19px 57px;
+     
+      padding-bottom: 19px;
+      padding-top: 19px;
+      text-decoration: none;
+      background-color: #E3170A;
+      color: #FFFFFF;
+      position: relative;
+      bottom: 83px;
+      left: -170px; /* Trial and error, behöver förstå bättre! */
     }
   }
 
