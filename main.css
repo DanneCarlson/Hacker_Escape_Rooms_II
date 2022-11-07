@@ -160,6 +160,49 @@ body {
     padding: 20px;*/
   }
 
+  .challenge-button-on-site-top {
+    display: block;
+    
+    font-family: roboto;
+    font-size: 24px;
+    font-weight: 700;
+    color: #011827;
+    text-decoration: none;
+    background-color: #8ACFE5;
+    border-radius: 4px;
+    width:15ch;
+    padding: 19px 53px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 37px;
+    margin-bottom: 30px;
+  }
+
+  @media screen and (min-width: 960px) {
+    .challenge-button-on-site-top {
+      bottom: 35px;
+      left: 50%;
+      margin: 0;
+      position: relative;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   /* ----------------------------------------------- Popular challenges right now ----------------------------------*/
 
   
@@ -201,7 +244,6 @@ body {
   }
 
   /* Title of room */
-
   .room-heading {
     margin-left: 17px;
     font-family: roboto;
