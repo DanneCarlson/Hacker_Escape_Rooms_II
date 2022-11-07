@@ -1,6 +1,7 @@
 body {
     /*background-color:#8ACFE5;*/
     margin: 0; 
+    max-width: 1280px;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap');
@@ -142,10 +143,14 @@ body {
     text-decoration: underline;
   }
 
+  /* ------------------------------------------------- Slut på header -------------------------------------------*/
+
   .hacker {
     margin-top: 16px;
     margin-left: 0px; 
   }
+
+  /* ------------------------------------------------- Challenge-quote -------------------------------------------*/
 
   .challenge-quote {
     justify-items: center;
@@ -155,4 +160,100 @@ body {
     padding: 20px;*/
   }
 
+  /* ----------------------------------------------- Popular challenges right now ----------------------------------*/
+
+  
+  .rooms {
+    display: flex;
+    overflow: scroll;
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+
+  @media screen and (min-width: 800px) {
+    .rooms {
+      margin-bottom: 100px;
+    }
+  }
+
+  .rooms::-webkit-scrollbar {
+    display: none;
+  }
+
+
+  
+  .popular-challenges {
+    display: flex;
+    margin-left: 53px;
+  }
+
+  .hacker-card {
+    width: 363px;
+    border-radius: 8px 8px 0px 0px;
+  }
+
+  .card {
+    margin-right: 42px;
+    height: 446px;
+    width: 363px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+  }
+
+  /* Title of room */
+
+  .room-heading {
+    margin-left: 17px;
+    font-family: roboto;
+    font-weight: 400;
+    font-size: 28px;
+    margin-top: 4px;
+    margin-bottom: 0px;
+  }
+
+
+  /* Listan med stjärnor och antal deltagare */
+  .review-stars-participants {
+    display: flex;
+    padding-left: 0;
+    margin: 0;
+    list-style-type: none;
+    margin-left: 12px;
+   
+  }
+
+  .review-star {
+    margin-left: 8px;
+  }
+
+  .number-of-participants {
+    margin-left: 127px;
+    font-family: roboto;
+    font-weight: 400;
+    font-size: 14px;
+  }
+
+  .room-description {
+    font-family: roboto;
+    font-size: 18px;
+    margin-left: 18px;
+    margin-right: 18px;
+  }
+
+  .book-this-room-button {
+  border-radius: 4px;
+  font-family: roboto;
+  font-size: 16px;
+  color: #FFFFFF;
+  font-weight: 700;
+  width:180px;
+  height: 44px;
+  text-decoration: none;
+  padding: 12px 34px;
+  background-color: #E3170A;
+  
+  position: relative;
+  left: 173px;
+  bottom: -20px;
+  }
   
