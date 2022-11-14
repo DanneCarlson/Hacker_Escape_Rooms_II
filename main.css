@@ -559,20 +559,8 @@ img {
       padding: 18px 45px;
       border: none;
       font-size: 18px;
+      font-weight: 700;
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     @media screen and (min-width: 800px) {
       .play-top {
@@ -581,33 +569,148 @@ img {
         /*height: 460px;*/
       }
 
-      .play-top {
-        height: 70vh;
-      }
-
       .people {
-        grid-row: span 10;
+        grid-row: span 3;
         height: auto;
         width: 60vh;
       }
 
       .play-friends {
-        margin-left: 5rem;
+        margin-left: 4rem;
+        grid-row: span 1;
+        margin-top:3rem;
+        margin-bottom: 0;
+        
+        /*margin-top: 7vh;*/
+        /*padding: 3rem 3rem;*/
+        /*padding-top: 3rem;*/
       }
 
       .description {
-        margin-left: 5rem;
+        margin-left: 4rem;
+        grid-row: span 1;
+        padding-top: 0rem;
+        margin-top: -7px;
+        
+
+        /*margin-bottom: 0;*/
+        /*margin-top: -7vh;*/
+        /*padding: 0rem 3rem;*/
       }
 
       .book-on-site {
-        /*display: inline-block;*/
         font-size: 18px;
         width: 25vh;
-        padding: 10px px;
-        margin-left: 5rem;
-        height: 3rem;
+        height: 5vh;
+        grid-row: span 1;
+        margin-left: 4rem;
+        margin-top: -7px;
+
+
+        /*margin-top: -1vh;*/
+        /*margin-bottom: 70rem;*/
+        /*margin-top: 3vh;*/
+        /*height: 3rem;*/
+        /*padding: 10px;*/
+        /*display: inline-block;*/ 
       }
     }
 
+    /* --------------------------------------------------- Play-bottom ---------------------------------*/
+
+
+    .play-bottom {
+      display: block;
+      margin-top: 3rem;
+      /*margin:0 0 1rem;*/
+      /*height: 700px;*/
+    }
+
+    .play-online {
+      margin-left: 1.5rem;
+      margin-right: 1.5rem;
+      font-size: 1.8rem;
+      font-weight: 700;
+    }
+
+    .see-all-challenges {
+      margin-left: 1.5rem;
+      margin-right: 1.5rem;
+      margin-top: 1rem;
+      color:white;
+      background-color: #E3170A;
+      border-radius: 4px;
+      padding: 18px 45px;
+      border: none;
+      font-size: 18px;
+      font-weight: 700;
+    }
+
+
+
+
+
+
+
+    
+
+
+    @media screen and (min-width: 800px) {
+      .play-bottom {
+        display: grid;
+        grid-template-columns: 1fr 1fr; 
+        margin-top: 0;
+        /*height: 460px;*/
+      }
+
+      .woman {
+        grid-row: span 3;
+        height: auto;
+        width: 60vh;
+      }
+
+      .play-online {
+        margin-left: 4rem;
+        grid-row: span 1;
+        margin-top:3rem;
+        margin-bottom: 0;
+        
+        /*margin-top: 7vh;*/
+        /*padding: 3rem 3rem;*/
+        /*padding-top: 3rem;*/
+      }
+
+      .description_2 {
+        margin-left: 4rem;
+        grid-row: span 1;
+        padding-top: 0rem;
+        margin-top: -7px;
+        
+
+        /*margin-bottom: 0;*/
+        /*margin-top: -7vh;*/
+        /*padding: 0rem 3rem;*/
+      }
+
+      .see-all-challenges {
+        font-size: 18px;
+        width: 25vh;
+        height: 5vh;
+        grid-row: span 1;
+        margin-left: 4rem;
+        margin-top: -7px;
+
+
+        /*margin-top: -1vh;*/
+        /*margin-bottom: 70rem;*/
+        /*margin-top: 3vh;*/
+        /*height: 3rem;*/
+        /*padding: 10px;*/
+        /*display: inline-block;*/ 
+      }
+    }
+
+
+    
 
   
