@@ -1,15 +1,24 @@
 body {
     /*background-color:#8ACFE5;*/
-    margin: 0; 
+    margin: 0;
+    padding: 0; 
     max-width: 1280px;
+    min-width: 480px;
+    font-family: roboto;
+}
+
+img {
+  max-width: 100%;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap');
 
 .header {
     background-color: #011827;
-    height: 144px;
+    /*height: 144px;*/
     width: auto;
+    margin: 0;
+    padding:0;
 
     /*background-size:cover;*/
     /*padding: 24px;*/
@@ -29,6 +38,7 @@ body {
     width: 136px;
     margin-top: 26px;
     margin-left: 27px;
+    font-weight: 700;
   }
 
 .site-heading {
@@ -57,14 +67,12 @@ body {
     right: 20px;
     top: 28px;
     margin-left: 163px;
-
     opacity: 100%;
-    
     border: none;
     border-radius: 3px;
-    
     padding: 0;
     background-color: #011827;
+    display: block;
     
   }
 
@@ -87,7 +95,7 @@ body {
     margin-left: 163px;
   }*/
 
-  .line-figure:hover {
+  /*.line-figure:hover {
     color: #8ACFE5;
     text-decoration: underline;
   }
@@ -96,24 +104,45 @@ body {
     .line-figure {
       display: none;
     }
+  }*/
+
+  .menu-mobile {
+    background-color: #E3170A;
+    display: none;
+
   }
+
+  .menu-mobile-show {
+    display: block;
+  }
+  
+
+
+
+
 
   .menu-list {
     display: none;
     justify-content: space-evenly;
     background-color: #011827;
     list-style: none;
+    padding: 0;
   }
 
   @media screen and (min-width: 800px) {
     .menu-list {
+      
+      margin: 0;
       display: flex;
+      
+      
+      /*display: flex;
       margin-top: -29px;
       height: 72px;
       background-color: #011827;
       justify-content: center;
       padding: 0px;
-      margin-left: -100px;
+      margin-left: -100px;*/
 
       /*margin-bottom: 235px;*/
       /*align-content:center;*/
@@ -123,11 +152,12 @@ body {
 
   .menu-item {
    
+    
     font-family: roboto;
     font-weight: 700;
     font-size: 24px;
-    margin-left: 114px;
-    margin-top: 20px;
+    /*margin-left:50px;*/
+    margin-bottom:  30px;
 
     /*text-decoration:none;*/
     /*font-style: #FFFFFF;*/
@@ -141,13 +171,17 @@ body {
   .menu-link:hover {
     color: #8ACFE5;
     text-decoration: underline;
+    transition: color 0.2s;
   }
 
   /* ------------------------------------------------- Slut på header -------------------------------------------*/
 
   .hacker {
-    margin-top: 16px;
+    margin-top: 0px;
     margin-left: 0px; 
+    /*width: 40vh;
+    height: 20vh;*/
+    object-fit: cover;
   }
 
   /* ------------------------------------------------- Challenge-quote -------------------------------------------*/
@@ -163,7 +197,7 @@ body {
   .challenge-button-on-site-top {
     display: block;
     
-    font-family: roboto;
+    /*font-family: roboto;*/
     font-size: 24px;
     font-weight: 700;
     color: #011827;
@@ -207,25 +241,92 @@ body {
       color: #FFFFFF;
       position: relative;
       bottom: 83px;
-      left: -170px; /* Trial and error, behöver förstå bättre! */
+      left: -170px; 
+    }
+  }
+
+  .pop-chall {
+    font-size: 36px;
+    font-weight: 400;
+    text-align:center;
+    margin-bottom: 0;
+  }
+
+  /* Listan */
+  .reviews {
+    display: flex;
+    margin-top: 30px;
+    padding-left: 0px;
+    padding-right: 0px;
+    /*overflow: hidden;*/
+    justify-content: center;
+    list-style: none;
+  }
+
+  /* Listelement */
+  .customer-review {
+    padding: 20px;
+  }
+
+  .customer-review-2 {
+    display: none;
+  }
+
+  @media  screen and (min-width: 800px)  {
+    .customer-review-2 {
+      display: flex;
+      padding: 20px;
     }
   }
 
 
+  .customer-review-card {
+    display: flex;
+    text-align: left;
+  }
 
+  .customer-review-card-quote {
+    margin: 0;
+    max-width: 75ch;
+    padding-right: 10px;
+  }
 
+  /* Här ska jag fortsätta */
 
+  .customer-review-card-cite {
+    font-family: roboto;
+    font-size: 24px;
+    font-weight: 400;
+    margin: 0;
+    max-width: 75ch;
+    padding-right: 10px;
+  }
 
+  .customer-review-card-picture {
+    padding-right: 10px;
+    width: 30vh;
+    margin-left: 2vh;
+  }
 
+ 
 
+  .customer-review-card-cite {
+    font-size: 24px;
 
+  }
 
+  .customer-review-card-name {
+    display: inline-block;
+    font-size: 18px;
+    margin-top: 5px;
+  }
 
-
-
-
-
-
+  @media screen and (min-width: 800px) {
+    .customer-review-card-name {
+      margin-top: 10px;
+      max-width: 30ch;
+    }
+  }
 
   /* ----------------------------------------------- Popular challenges right now ----------------------------------*/
 
@@ -247,8 +348,6 @@ body {
     display: none;
   }
 
-
-  
   .popular-challenges {
     display: flex;
     margin-left: 53px;
@@ -276,7 +375,6 @@ body {
     margin-top: 4px;
     margin-bottom: 0px;
   }
-
 
   /* Listan med stjärnor och antal deltagare */
   .review-stars-participants {
@@ -322,4 +420,165 @@ body {
   left: 173px;
   bottom: -20px;
   }
+
+  /*------------------------------------------------ Knappar, bottom --------------------------------------*/
+
+  .buttons-bottom {
+    /*justify-items: center;*/
+    text-align: center;
+    justify-content: center;
+  }
+
+  .challenge-button-on-site-bottom {
+    display: block;
+    /*font-family: roboto;*/
+    font-size: 24px;
+    font-weight: 700;
+    color: #011827;
+    text-decoration: none;
+    background-color: #8ACFE5;
+    border-radius: 4px;
+    width:15ch;
+    padding: 19px 53px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 37px;
+    margin-bottom: 30px;
+  }
+
+  @media screen and (min-width: 800px) {
+    .challenge-button-on-site-bottom {
+      bottom: 35px;
+      left: 50%;
+      margin: 0;
+      position: relative;
+    }
+  }
+
+  .challenge-button-online-bottom {
+    font-family: roboto;
+    font-weight: 700;
+    font-size: 16px;
+    color: #36769D;
+  }
+
+  @media screen and (min-width: 800px) {
+    .challenge-button-online-bottom {
+      font-size: 24px;
+      border-radius: 4px;
+      padding: 19px 57px;
+      padding-bottom: 19px;
+      padding-top: 19px;
+      text-decoration: none;
+      background-color: #E3170A;
+      color: #FFFFFF;
+      position: relative;
+      bottom: 83px;
+      left: -170px;
+    }
+  }
+  
+/* ------------------------------------------------ Slut, knappar ----------------------------------------- */
+
+
+  .story {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:#011827;
+    color: white;
+    padding: 3rem 1rem;
+    margin-top: 3vh;
+    height: 15rem;
+    
+  }
+
+  .story-text {
+    max-width: 26rem;
+    text-align:center;
+    margin-bottom: 2rem;
+    }
+
+    .btn-story {
+      border: 2px solid;
+      border-color:#8ACFE5;
+      color:#8ACFE5;
+      background-color: transparent;
+      border-radius: 4px;
+      padding: 10px 25px;
+      margin-left: auto;
+      margin-right: auto;
+      font-size: 16px;
+      font-weight: 700;
+    }
+
+    .play {
+      /*display: flex;*/
+    }
+
+    .people {
+      /*width: 100vh;*/
+    }
+
+    .play-friends {
+      margin-left: 1.5rem;
+      margin-right: 1.5rem;
+    }
+
+    .description {
+      margin-left: 1.5rem;
+      margin-right: 1.5rem;
+    }
+
+    .book-on-site {
+      margin-left: 1.5rem;
+      margin-right: 1.5rem;
+      margin-top: 1rem;
+      color:white;
+      background-color: #E3170A;
+      border-radius: 4px;
+      padding: 18px 45px;
+      border: none;
+      font-size: 18px;
+    }
+
+    @media screen and (min-width: 800px) {
+      .play {
+        display: grid;
+        grid-template-columns: 1fr 1fr; 
+        /*height: 460px;*/
+      }
+
+      .play {
+        height: 460px;
+      }
+
+      .people {
+        grid-row: span 3;
+      }
+
+      .play-friends {
+        margin-left: 5rem;
+      }
+
+      .description {
+        margin-left: 5rem;
+      }
+
+      .book-on-site {
+        /*display: inline-block;*/
+        font-size: 18px;
+        width: 25vh;
+        padding: 10px px;
+        margin-left: 5rem;
+        height: 3rem;
+
+
+        
+      
+        
+    
+      }
+
+    }
   

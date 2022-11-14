@@ -6,7 +6,7 @@
     <title>Hacker Escape Rooms</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-    <script src='main.js'></script>
+    
     <style>
     @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap');
     </style>
@@ -39,7 +39,7 @@
                 <img class="line" src="img/line.svg"></a>
                 </button>-->
             
-            <ul class="menu-list">
+            <ul class="menu-list menu-mobile">
                 <li class="menu-item">
                     <a class="menu-link" href="#">Play online</a>
                 </li>
@@ -56,13 +56,11 @@
         </nav>
     </header>
 
-   <br>
-   <br>
-   <br>
+ 
     <!--<figure class="hacker">-->
         <picture>
             <source media="(min-width: 800px)" srcset="img/hacking_picture.png">
-            <img class="hacker" src="img/hacking_picture_mobile.png">           
+            <img class="hacker" src="img/hacking_picture.png">           
         </picture>
     <!--</figure>-->
 
@@ -71,16 +69,64 @@
     <div class="challenge-quote">
         <a class="challenge-button-on-site-top" href="#">On-site challenges</a> 
         <a class="challenge-button-online-top" href="#">Online challenges</a>
+
+        <ul class="reviews">
+            <li class="customer-review">
+
+                <div class="customer-review-card">
+                    <picture class="customer-review-card-picture">
+                        <source srcset="img/John_large.png" media="(min-width: 800px)">
+                        <img class="customer-review-card-picture-small" src="img/John_small.png">
+                    </picture>
+
+                    <blockquote class="customer-review-card-quote">
+                        <cite class="customer-review-card-cite">This is a quote about how amazing this place is and
+                            how much fun me and my friends had when we tried it</cite>
+                        <p class="customer-review-card-name">John Doe, visited us in September 2021</p>
+                    </blockquote>
+                </div>
+            </li>
+            <li class="customer-review-2">
+
+                <div class="customer-review-card">
+                    <picture class="customer-review-card-picture">
+                        <source srcset="img/John_large.png" media="(min-width: 800px)">
+                        <img class="customer-review-card-picture-small" src="img/John_small.png">
+                    </picture>
+
+                    <blockquote class="customer-review-card-quote">
+                        <cite class="customer-review-card-cite">This is a quote about how amazing this place is and
+                            how much fun me and my friends had when we tried it</cite>
+                        <p class="customer-review-card-name">John Doe, visited us in September 2021</p>
+                    </blockquote>
+                </div>
+            </li>
+
+
+
+
+
+
+            <!--<li class="customer-quotes__item">
+
+                <div class="customer-quote-card">
+                    <picture class="customer-quote-card__picture">
+                        <source srcset="img/quoter_large.png" media="(min-width: 800px)">
+                        <img class="customer-quote-card__quoter-picture" src="img/quoter_small.png"
+                            alt="A picture of the person who wrote the quote">
+                    </picture>
+
+                    <blockquote class="customer-quote-card__blockquote">
+                        <cite class="customer-quote-card__cite">This is a quote about how amazing this place is and
+                            how much fun me and my friends had when we tried it</cite>
+                        <p class="customer-quote-card__p">John Doe, visited us in September 2021</p>
+                    </blockquote>
+                </div>
+            </li>-->
+        </ul>
     </div>
 
-
-
-
-
-
-
-
-
+    <h2 class="pop-chall">Popular challenges right now</h2>
 
     <br>
     <br>
@@ -144,7 +190,6 @@
                     <a class="book-this-room-button" href="#">Book this room</a>
                 </div>
             </div>
-
             <div class="card">
                 <img class="hacker-card" src="img/hacker_card.png" alt="Avatar" style="width:100%">
                 <div class="container">
@@ -175,54 +220,29 @@
         </div>
     </div>
 
+    <div class="buttons-bottom">
+        <a class="challenge-button-on-site-bottom" href="#">On-site challenges</a> 
+        <a class="challenge-button-online-bottom" href="#">Online challenges</a>
+    </div>
 
+    <div class="story">
+        <p class="story-text">Quodsi haberent magnalia inter potentiam et divitias, et non illam quidem haec eo spectant haec quoque vos omnino desit illud quo solo felicitatis libertatisque perficiuntur.</p>
+        <button class="btn-story">Read the full story</button>
+    </div>
 
-
-          <!--<div class="card">
-            <img class="hacker-card" src="img/hacker_card.png" alt="Avatar" style="width:100%">
-            <div class="container">
-              <h3>Title of room (on-site)</h3>
-              <p>Architect & Engineer</p>
-            </div>
-          </div>
-
-          <div class="card">
-            <img class="hacker-card" src="img/hacker_card.png" alt="Avatar" style="width:100%">
-            <div class="container">
-              <h3>Title of room (on-site)</h3>
-              <p>Architect & Engineer</p>
-            </div>
-          </div>-->
-
-
-
-
-          
-      
-
-
-
+    <div class="play">
+        <img class="people" src="/img/people.png">
+        <h2 class="play-friends">Play with your friends or build your team stronger at work</h2>
+        <p class="description">Praeterea, ex culpa non invenies unum aut non accusatis unum. Et nihil inuitam. Nemo nocere tibi erit, et non inimicos, et</p>
+        <button class="book-on-site">Book on-site today</button>
 
     </div>
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     
+    
+    <script src='main.js'></script>
 </body>
 </html>
