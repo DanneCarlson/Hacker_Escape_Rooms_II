@@ -487,16 +487,18 @@ img {
     align-items: center;
     background-color:#011827;
     color: white;
-    padding: 3rem 1rem;
+    padding: 4rem 4rem;
     margin-top: 3vh;
-    height: 15rem;
+    height: 17rem;
     
   }
 
   .story-text {
-    max-width: 26rem;
+    max-width: 30rem;
     text-align:center;
     margin-bottom: 2rem;
+    margin-top: 2rem;
+    font-size: 1.3rem;
     }
 
     .btn-story {
@@ -505,29 +507,46 @@ img {
       color:#8ACFE5;
       background-color: transparent;
       border-radius: 4px;
-      padding: 10px 25px;
+      padding: 15px 40px;
       margin-left: auto;
       margin-right: auto;
       font-size: 16px;
       font-weight: 700;
     }
 
-    .play {
-      /*display: flex;*/
+
+  /* --------------------------------------------------------- Play-top -------------------------- */
+
+    .play-top {
+      display: block;
+      /*margin:0 0 1rem;*/
+      /*height: 700px;*/
     }
 
     .people {
       /*width: 100vh;*/
+      height: 20rem;
+      width: 100vh;
+      object-fit: cover;
+      /*margin-top: 0px;
+      margin-left: 0px; 
+      margin-right: 0px;*/
+      
+      
     }
 
     .play-friends {
       margin-left: 1.5rem;
       margin-right: 1.5rem;
+      font-size: 1.8rem;
+      font-weight: 700;
     }
 
     .description {
       margin-left: 1.5rem;
       margin-right: 1.5rem;
+      font-size: 1.2rem;
+      font-weight: 400;
     }
 
     .book-on-site {
@@ -542,19 +561,34 @@ img {
       font-size: 18px;
     }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
     @media screen and (min-width: 800px) {
-      .play {
+      .play-top {
         display: grid;
         grid-template-columns: 1fr 1fr; 
         /*height: 460px;*/
       }
 
-      .play {
-        height: 460px;
+      .play-top {
+        height: 70vh;
       }
 
       .people {
-        grid-row: span 3;
+        grid-row: span 10;
+        height: auto;
+        width: 60vh;
       }
 
       .play-friends {
@@ -572,13 +606,8 @@ img {
         padding: 10px px;
         margin-left: 5rem;
         height: 3rem;
-
-
-        
-      
-        
-    
       }
-
     }
+
+
   
