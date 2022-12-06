@@ -1,5 +1,4 @@
 body {
-    /*background-color:#8ACFE5;*/
     margin: 0;
     padding: 0; 
     max-width: 1280px;
@@ -7,31 +6,27 @@ body {
     font-family: roboto;
 }
 
+
 img {
   max-width: 100%;
 }
 
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap');
+
 
 .header {
     background-color: #011827;
-    /*height: 144px;*/
     width: auto;
     margin: 0;
     padding:0;
-
-    /*background-size:cover;*/
-    /*padding: 24px;*/
 }
 
-/*@media screen and (min-width: 800px) {
-    .header {
-      height: 216px;
-    }*/
 
 .header-banner {
     display: flex;
 }
+
 
 .header-logo {
     height: 90px;
@@ -40,6 +35,7 @@ img {
     margin-left: 27px;
     font-weight: 700;
   }
+
 
 .site-heading {
     color: #FFFFFF;
@@ -51,6 +47,7 @@ img {
     margin-top: 27px;  
   }
 
+
   @media screen and (min-width: 800px) {
     .site-heading {
       font-size: 40px;
@@ -60,6 +57,7 @@ img {
       width: 20ch;
     }
   } 
+
 
   .open-menu {
     max-width: 51px;
@@ -72,9 +70,9 @@ img {
     border-radius: 3px;
     padding: 0;
     background-color: #011827;
-    display: block;
-    
+    display: block; 
   }
+
 
   .open-menu:hover {
     cursor: pointer;
@@ -87,39 +85,17 @@ img {
     }
   }
 
-  /*.line-figure {
-    max-width: 51px;
-    position: absolute;
-    right: -10px;
-    top: 10px;
-    margin-left: 163px;
-  }*/
-
-  /*.line-figure:hover {
-    color: #8ACFE5;
-    text-decoration: underline;
-  }
-
-  @media screen and (min-width: 800px) {
-    .line-figure {
-      display: none;
-    }
-  }*/
 
   .menu-mobile {
     background-color: #E3170A;
     display: none;
-
   }
+
 
   .menu-mobile-show {
     display: block;
   }
   
-
-
-
-
 
   .menu-list {
     display: none;
@@ -129,44 +105,28 @@ img {
     padding: 0;
   }
 
+
   @media screen and (min-width: 800px) {
     .menu-list {
-      
       margin: 0;
       display: flex;
-      
-      
-      /*display: flex;
-      margin-top: -29px;
-      height: 72px;
-      background-color: #011827;
-      justify-content: center;
-      padding: 0px;
-      margin-left: -100px;*/
-
-      /*margin-bottom: 235px;*/
-      /*align-content:center;*/
-      /*margin-top: -27px;*/
     }
   }
 
+
   .menu-item {
-   
-    
     font-family: roboto;
     font-weight: 700;
     font-size: 24px;
-    /*margin-left:50px;*/
     margin-bottom:  30px;
-
-    /*text-decoration:none;*/
-    /*font-style: #FFFFFF;*/
   }
+
 
   .menu-link {
     text-decoration:none;
     color: #FFFFFF;
   }
+
 
   .menu-link:hover {
     color: #8ACFE5;
@@ -179,8 +139,6 @@ img {
   .hacker {
     margin-top: 0px;
     margin-left: 0px; 
-    /*width: 40vh;
-    height: 20vh;*/
     object-fit: cover;
   }
 
@@ -189,15 +147,11 @@ img {
   .challenge-quote {
     justify-items: center;
     text-align: center;
-
-    /*margin-bottom: 60px;
-    padding: 20px;*/
   }
+
 
   .challenge-button-on-site-top {
     display: block;
-    
-    /*font-family: roboto;*/
     font-size: 24px;
     font-weight: 700;
     color: #011827;
@@ -212,6 +166,7 @@ img {
     margin-bottom: 30px;
   }
 
+
   @media screen and (min-width: 800px) {
     .challenge-button-on-site-top {
       bottom: 35px;
@@ -221,12 +176,14 @@ img {
     }
   }
 
+
   .challenge-button-online-top {
     font-family: roboto;
     font-weight: 700;
     font-size: 16px;
     color: #36769D;
   }
+
 
   @media screen and (min-width: 800px) {
     .challenge-button-online-top {
@@ -245,6 +202,7 @@ img {
     }
   }
 
+
   .pop-chall {
     font-size: 36px;
     font-weight: 400;
@@ -252,25 +210,26 @@ img {
     margin-bottom: 0;
   }
 
-  /* Listan */
+  
   .reviews {
     display: flex;
     margin-top: 30px;
     padding-left: 0px;
     padding-right: 0px;
-    /*overflow: hidden;*/
     justify-content: center;
     list-style: none;
   }
 
-  /* Listelement */
+
   .customer-review {
     padding: 20px;
   }
 
+
   .customer-review-2 {
     display: none;
   }
+
 
   @media  screen and (min-width: 800px)  {
     .customer-review-2 {
@@ -285,13 +244,13 @@ img {
     text-align: left;
   }
 
+
   .customer-review-card-quote {
     margin: 0;
     max-width: 75ch;
     padding-right: 10px;
   }
 
-  /* Här ska jag fortsätta */
 
   .customer-review-card-cite {
     font-family: roboto;
@@ -302,6 +261,7 @@ img {
     padding-right: 10px;
   }
 
+
   .customer-review-card-picture {
     padding-right: 10px;
     width: 30vh;
@@ -309,17 +269,17 @@ img {
   }
 
  
-
   .customer-review-card-cite {
     font-size: 24px;
-
   }
+
 
   .customer-review-card-name {
     display: inline-block;
     font-size: 18px;
     margin-top: 5px;
   }
+
 
   @media screen and (min-width: 800px) {
     .customer-review-card-name {
@@ -338,25 +298,30 @@ img {
     scrollbar-width: none; /* Firefox */
   }
 
+
   @media screen and (min-width: 800px) {
     .rooms {
       margin-bottom: 100px;
     }
   }
 
+
   .rooms::-webkit-scrollbar {
     display: none;
   }
+
 
   .popular-challenges {
     display: flex;
     margin-left: 53px;
   }
 
+
   .hacker-card {
     width: 363px;
     border-radius: 8px 8px 0px 0px;
   }
+
 
   .card {
     margin-right: 42px;
@@ -366,7 +331,7 @@ img {
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
   }
 
-  /* Title of room */
+  
   .room-heading {
     margin-left: 17px;
     font-family: roboto;
@@ -376,7 +341,7 @@ img {
     margin-bottom: 0px;
   }
 
-  /* Listan med stjärnor och antal deltagare */
+
   .review-stars-participants {
     display: flex;
     padding-left: 0;
@@ -386,9 +351,11 @@ img {
    
   }
 
+
   .review-star {
     margin-left: 8px;
   }
+
 
   .number-of-participants {
     margin-left: 127px;
@@ -397,12 +364,14 @@ img {
     font-size: 14px;
   }
 
+
   .room-description {
     font-family: roboto;
     font-size: 18px;
     margin-left: 18px;
     margin-right: 18px;
   }
+
 
   .book-this-room-button {
   border-radius: 4px;
@@ -415,7 +384,6 @@ img {
   text-decoration: none;
   padding: 12px 34px;
   background-color: #E3170A;
-  
   position: relative;
   left: 173px;
   bottom: -20px;
@@ -424,14 +392,13 @@ img {
   /*------------------------------------------------ Knappar, bottom --------------------------------------*/
 
   .buttons-bottom {
-    /*justify-items: center;*/
     text-align: center;
     justify-content: center;
   }
 
+
   .challenge-button-on-site-bottom {
     display: block;
-    /*font-family: roboto;*/
     font-size: 24px;
     font-weight: 700;
     color: #011827;
@@ -446,6 +413,7 @@ img {
     margin-bottom: 30px;
   }
 
+
   @media screen and (min-width: 800px) {
     .challenge-button-on-site-bottom {
       bottom: 35px;
@@ -455,12 +423,14 @@ img {
     }
   }
 
+
   .challenge-button-online-bottom {
     font-family: roboto;
     font-weight: 700;
     font-size: 16px;
     color: #36769D;
   }
+
 
   @media screen and (min-width: 800px) {
     .challenge-button-online-bottom {
@@ -490,8 +460,8 @@ img {
     padding: 4rem 4rem;
     margin-top: 3vh;
     height: 17rem;
-    
   }
+
 
   .story-text {
     max-width: 30rem;
@@ -500,6 +470,7 @@ img {
     margin-top: 2rem;
     font-size: 1.3rem;
     }
+
 
     .btn-story {
       border: 2px solid;
@@ -519,21 +490,15 @@ img {
 
     .play-top {
       display: block;
-      /*margin:0 0 1rem;*/
-      /*height: 700px;*/
     }
 
+
     .people {
-      /*width: 100vh;*/
       height: 20rem;
       width: 100vh;
       object-fit: cover;
-      /*margin-top: 0px;
-      margin-left: 0px; 
-      margin-right: 0px;*/
-      
-      
     }
+
 
     .play-friends {
       margin-left: 1.5rem;
@@ -542,12 +507,14 @@ img {
       font-weight: 700;
     }
 
+
     .description {
       margin-left: 1.5rem;
       margin-right: 1.5rem;
       font-size: 1.2rem;
       font-weight: 400;
     }
+
 
     .book-on-site {
       margin-left: 1.5rem;
@@ -562,12 +529,13 @@ img {
       font-weight: 700;
     }
 
+
     @media screen and (min-width: 800px) {
       .play-top {
         display: grid;
         grid-template-columns: 1fr 1fr; 
-        /*height: 460px;*/
       }
+
 
       .people {
         grid-row: span 3;
@@ -575,44 +543,34 @@ img {
         width: 60vh;
       }
 
+
       .play-friends {
         margin-left: 4rem;
         grid-row: span 1;
         margin-top:3rem;
         margin-bottom: 0;
+        padding: 5rem;
+        margin-top: 1rem;
         
-        /*margin-top: 7vh;*/
-        /*padding: 3rem 3rem;*/
-        /*padding-top: 3rem;*/
       }
+
 
       .description {
         margin-left: 4rem;
         grid-row: span 1;
         padding-top: 0rem;
-        margin-top: -7px;
-        
-
-        /*margin-bottom: 0;*/
-        /*margin-top: -7vh;*/
-        /*padding: 0rem 3rem;*/
+        margin-top: -11rem;
+        padding: 5rem;
       }
+
 
       .book-on-site {
         font-size: 18px;
         width: 25vh;
         height: 5vh;
         grid-row: span 1;
-        margin-left: 4rem;
-        margin-top: -7px;
-
-
-        /*margin-top: -1vh;*/
-        /*margin-bottom: 70rem;*/
-        /*margin-top: 3vh;*/
-        /*height: 3rem;*/
-        /*padding: 10px;*/
-        /*display: inline-block;*/ 
+        margin-left: 9rem;
+        margin-top: -6rem;
       }
     }
 
@@ -622,9 +580,8 @@ img {
     .play-bottom {
       display: block;
       margin-top: 3rem;
-      /*margin:0 0 1rem;*/
-      /*height: 700px;*/
     }
+
 
     .play-online {
       margin-left: 1.5rem;
@@ -633,12 +590,14 @@ img {
       font-weight: 700;
     }
 
+
     .description_2 {
       margin-left: 1.5rem;
       margin-right: 1.5rem;
       font-size: 1.2rem;
       font-weight: 400;
     }
+
 
     .see-all-challenges {
       margin-left: 1.5rem;
@@ -651,70 +610,57 @@ img {
       border: none;
       font-size: 18px;
       font-weight: 700;
+      margin-bottom: 1rem;
     }
 
-    
 
     @media screen and (min-width: 800px) {
       .play-bottom {
         display: grid;
         grid-template-columns: 1fr 1fr; 
         margin-top: 0;
-        /*height: 460px;*/
       }
 
 
       .woman {
         grid-row: span 3;
-        /*grid-column: span;*/
+        grid-column: 3 / span 1;
         height: auto;
-        width: 60vh;
+        width: 55.5vh;
       }
+
 
       .play-online {
         margin-left: 4rem;
         grid-row: span 1;
-        margin-top:3rem;
-        margin-bottom: 0;
-        
-        /*margin-top: 7vh;*/
-        /*padding: 3rem 3rem;*/
-        /*padding-top: 3rem;*/
+        grid-column: span 2;
+        padding: 5rem;
+        margin-top: -28rem;
       }
+
 
       .description_2 {
         margin-left: 4rem;
         grid-row: span 1;
-        padding-top: 0rem;
-        margin-top: -7px;
-        
-
-        /*margin-bottom: 0;*/
-        /*margin-top: -7vh;*/
-        /*padding: 0rem 3rem;*/
+        grid-column: span 2;
+        margin-top: -16rem;
+        padding: 5rem;
+        padding-top: 1rem;
       }
+
 
       .see-all-challenges {
         font-size: 18px;
         width: 25vh;
         height: 5vh;
         grid-row: span 1;
-        margin-left: 4rem;
-        margin-top: -7px;
-
-
-        /*margin-top: -1vh;*/
-        /*margin-bottom: 70rem;*/
-        /*margin-top: 3vh;*/
-        /*height: 3rem;*/
-        /*padding: 10px;*/
-        /*display: inline-block;*/ 
+        margin-left: 9rem;
+        margin-top: -8rem;
       }
     }
 
 
-/*-------------------------------
---------------------- Footer -----------------------------------------*/
+/*--------------------- Footer -----------------------------------------*/
 
 .footer {
   display: block;
@@ -724,21 +670,21 @@ img {
   margin-top: 2rem;
   padding-top: 2rem;
   padding-bottom: 2rem;
-
-   /*height: 15rem;*/
 }
+
 
 .para-footer {
   font-size: 1.2rem;
   font-weight: 400;
 }
 
+
 .footer-summary {
-  /*padding-top: 2rem;*/
   padding-left: 1rem;
   padding-right: 1rem;
   font-weight: 700;
 }
+
 
 .footer-sitemap {
   padding-top: 0.5rem;
@@ -746,10 +692,12 @@ img {
   font-weight: 700;
 }
 
+
 .sitemap-list {
   list-style: none;
   margin-left: -80px;
 }
+
 
 .sitemap-link {
   text-decoration:none;
@@ -758,11 +706,13 @@ img {
   font-weight: 400;
 }
 
+
 .sitemap-link:hover {
   color: #8ACFE5;
   text-decoration: underline;
   transition: color 0.2s;
 }
+
 
 .footer-social {
   padding-top: 0.5rem;
@@ -771,10 +721,12 @@ img {
   padding-bottom: 0rem;
 }
 
+
 .social-list {
   list-style: none;
   margin-left: -80px;
 }
+
 
 .social-link {
   text-decoration:none;
@@ -783,10 +735,36 @@ img {
   font-weight: 400;
 }
 
+
 .social-link:hover {
   color: #8ACFE5;
   text-decoration: underline;
   transition: color 0.2s;
+}
+
+
+@media screen and (min-width: 800px) {
+  .footer {
+    display: flex;
+    margin-top: 0;
+  }
+
+
+  .footer-summary {
+    margin-left: 5rem;
+    padding-right: 3rem;
+  }
+
+
+  .para-footer {
+    width: 30rem;
+    padding-right: 3rem;
+  }
+
+
+  .footer-sitemap {
+    padding-right: 8rem;
+  }
 }
 
 
